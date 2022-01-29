@@ -1,7 +1,7 @@
 <template>
   <div>
     <q-layout view="lHh Lpr lff" style="height: 100vh" container class="shadow-2 rounded-borders">
-      <q-header elevated class="bg-white" v-if="q.screen.sm">
+      <q-header elevated class="bg-white" v-if="q.screen.sm||q.screen.xs">
         <q-toolbar style="display: flex; justify-content: space-between">
           <img src="../public/logo_mir.png" alt="" width="180" height="50" />
           <q-btn
